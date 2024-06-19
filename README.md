@@ -99,7 +99,7 @@ Already had installed VS code during class.
 https://github.com/ThandoK03/Development-.git
 
 **Challenges:**
-I did not experience any because mostly was done in class. Only had a problem with installing windows
+I did not experience any because mostly was done in class. Only had a problem with installing windows.
 
 #Deliverables:
 

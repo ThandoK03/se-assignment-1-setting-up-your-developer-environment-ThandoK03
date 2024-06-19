@@ -17,7 +17,6 @@ This assignment aims to familiarize you with the tools and configurations necess
 My laptop says "the processor isn't supported for this version of Windows.
 <img src="images/Windows screenshot.png">
 
-
 2. Install a Text Editor or Integrated Development Environment (IDE):
    Select and install a text editor or IDE suitable for your programming languages and workflow. Download and Install Visual Studio Code. https://code.visualstudio.com/Download
 
@@ -25,18 +24,53 @@ My laptop says "the processor isn't supported for this version of Windows.
 Already had installed VS code during class.
 <img src="images/VS code screenshot.png">
 
-
 3. Set Up Version Control System:
    Install Git and configure it on your local machine. Create a GitHub account for hosting your repositories. Initialize a Git repository for your project and make your first commit. https://github.com
+**Answer**
+Already had installed both git and github
+<img src="images/git screenshot.png">
+<img src="images/github screenshot.png">
 
 4. Install Necessary Programming Languages and Runtimes:
   Instal Python from http://wwww.python.org programming language required for your project and install their respective compilers, interpreters, or runtimes. Ensure you have the necessary tools to build and execute your code.
+**Answer**
+Step 1:Go to the python website.
+Step 2:Click on "download python", and click the latest version.
+Step 3:Locate the downloaded file and click it.
+Step 4:Click the check box that says "add python" to "path" at the bottom of the installer window.
+Step 5:Wait for the installation to complete.
+Step 6:Verify the installation by opening Gitbash and typing "python --version".
 
 5. Install Package Managers:
    If applicable, install package managers like pip (Python).
+   **Answer**
+   Pip is the package installer for Python.
+   Step 1:Go the website and type PIP(get-pip.py)
+   Step 2:Install PIP and run the python command "python get-pip.py"
+   Step 3:Verify the installation by add  it to the "path" variable.
+   Step 4:To test whether it was successful, type the command "python -m pip help".
+   Step 5:Add it the PATH.
+   Go to the "edit the system enviroment"
+   Click the "Evironment Varibles"
+   Double tap on the PATH varible to edit it
+   Select new and add the directory where PIP is installed
+   Click "OK" to save the changes
+   Step 6:Configure by using the command "pip config -v list"
+
 
 6. Configure a Database (MySQL):
    Download and install MySQL database. https://dev.mysql.com/downloads/windows/installer/5.7.html
+   **Answer**
+Step 1:Go to the browser and type "dev.mysql.com/downloads/installer/" and install it.
+Step 2:Locate the downloaded file and double-click to run the installer.
+Step 3:Choose setup type: "Developer Default" which installs MySQLServer,Workbench and other tools.
+Step 4:Click next the execute to download.
+Step 5:Configure the MySQL Server.
+Select port number (3306 is default)
+Step 6:Set a root password and you can also create user accounts.
+Step 7:Start the server after installation.
+Step 8:Finish the config and close the installer.
+Step 9:Verify installation by typing the command on gitbash "mysql -u root -p"
 
 7. Set Up Development Environments and Virtualization (Optional):
    Consider using virtualization tools like Docker or virtual machines to isolate project dependencies and ensure consistent environments across different machines.
@@ -46,6 +80,8 @@ Already had installed VS code during class.
 
 9. Document Your Setup:
     Create a comprehensive document outlining the steps you've taken to set up your developer environment. Include any configurations, customizations, or troubleshooting steps encountered during the process. 
+    **Answer**
+    
 
 #Deliverables:
 - Document detailing the setup process with step-by-step instructions and screenshots where necessary.

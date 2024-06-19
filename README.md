@@ -14,7 +14,7 @@ This assignment aims to familiarize you with the tools and configurations necess
    Choose an operating system that best suits your preferences and project requirements. Download and Install Windows 11. https://www.microsoft.com/software-download/windows11
 
 **Answer**
-My laptop says "the processor isn't supported for this version of Windows.
+My laptop says "the processor isn't supported for this version of Windows. It doesn't want to install windows 11.
 <img src="images/Windows screenshot.png">
 
 2. Install a Text Editor or Integrated Development Environment (IDE):
@@ -77,11 +77,28 @@ Step 9:Verify installation by typing the command on gitbash "mysql -u root -p"
 
 8. Explore Extensions and Plugins:
    Explore available extensions, plugins, and add-ons for your chosen text editor or IDE to enhance functionality, such as syntax highlighting, linting, code formatting, and version control integration.
+   **Answer**
+   1.VSCode- Installed Dart and Python.
+   2.Installed ESLint and PyLint.
+   3.Installed Prettier,Beautify and Python Formatter.
+   3.Installed Git Pull Requests and Issues.
 
 9. Document Your Setup:
     Create a comprehensive document outlining the steps you've taken to set up your developer environment. Include any configurations, customizations, or troubleshooting steps encountered during the process. 
     **Answer**
-    
+    Step 1: Installed VSCode and configured by installing extensions.
+    Step 2: Installed Git and used the following commands .
+    (git config --global user.name "Thando Kheswa")(git config --global user.email"kheswathando22@gmail.com").
+    Step 3: Installed Python and verified the version using ("python --version") and its extensions.
+    Step 4: Installed MySQL and verified using the command (""mysql -u root -p"").
+    Step 5:Installed Dart and verified using ("dart --version").
+    Step 6:Installed Flutter, extracted the zip, updated the path and used the command ("flutter doctor")
+
+**GitHub Link**
+https://github.com/ThandoK03/Development-.git
+
+**Challenges**
+I did not experience any because mostly was done in class. Only had a problem with installing windows
 
 #Deliverables:
 - Document detailing the setup process with step-by-step instructions and screenshots where necessary.
